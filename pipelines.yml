@@ -1,5 +1,5 @@
 resources:
-  - name: myGitRepos
+  - name: myGitRepo
     type: GitRepo
     configuration:
       gitProvider: my_github
