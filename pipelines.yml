@@ -23,7 +23,7 @@ pipelines:
         type: Bash
         configuration:
           inputResources:
-            - name: myGitRepos
+            - name: myGitRepos1
           outputResources:
             - name: myBuildInfo             
         execution:
