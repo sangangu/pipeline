@@ -1,5 +1,5 @@
 resources:
-  - name: myGitRepo
+  - name: myGitRepos
     type: GitRepo
     configuration:
       gitProvider: my_github
@@ -23,7 +23,7 @@ pipelines:
         type: Bash
         configuration:
           inputResources:
-            - name: myGitRepo
+            - name: myGitRepos
           outputResources:
             - name: myBuildInfo             
         execution:
